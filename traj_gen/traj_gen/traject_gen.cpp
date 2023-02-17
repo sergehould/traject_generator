@@ -12,16 +12,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define PV_VALUES   10
+#define SP_VALUES   10
 /*  Provided for simulation only.
     Returns pv.
 */
-double get_pv_angle(int i) {
-    if (i == 0) return PV_VALUES;
-    else if (i == 1) return PV_VALUES;
-    else if (i == 2) return PV_VALUES;
-    else if (i == 3) return PV_VALUES;
+double get_sp_angle(int i) {
+    if (i == 0) return SP_VALUES;
+    else if (i == 1) return SP_VALUES;
+    else if (i == 2) return SP_VALUES;
+    else if (i == 3) return SP_VALUES;
 }
+
 
 /*  Provided for simulation only.
     Prints all via points.
