@@ -23,16 +23,21 @@ double sp_angle_get(int i) {
     else if (i == 3) return SP_VALUES;
 }
 
+#define PV_VALUES   10
 
 /*  Provided for simulation only.
     Prints all via points.
 */
 void traj_set(double *traj, int nb, int mode) {
     int i = 0;
-    printf("\njnt0 - jnt1 - jnt2 - jnt3 - n\n");
+    printf("\n");
+    for (int j = 0; j < NUM_JOINTS; j++) {
+        printf("jnt%d - ", j);
+    }
+    printf("\n");;
     printf("-----------------------------\n");
-    for (int k = 0; k < nb * 4; k++) {
-        if ((k % 4) == 0 && k!= 0) printf("%d\n", i++);
+    for (int k = 0; k < nb * NUM_JOINTS; k++) {
+        if ((k % NUM_JOINTS) == 0 && k!= 0) printf("%d\n", i++);
         printf("%3.2f  ", traj[k]);
     }
     printf("n: %d\n", i);
