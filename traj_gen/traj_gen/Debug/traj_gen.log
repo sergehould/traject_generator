@@ -1,2 +1,5 @@
 ﻿  main.cpp
-  traj_gen.vcxproj -> C:\serge\Vanier\courses\247-607-VA_Computerized Systems Optimization\projects\visual_studio\traject_gen\stu_traj_gen\traj_gen\Debug\traj_gen.exe
+  traject_gen.cpp
+  Generating Code...
+C:\Users\houlds\Documents\tempo\traject_generator\traj_gen\traj_gen\traject_gen.cpp(24): warning C4715: 'sp_angle_get': not all control paths return a value
+  traj_gen.vcxproj -> C:\Users\houlds\Documents\tempo\traject_generator\traj_gen\Debug\traj_gen.exe
