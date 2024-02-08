@@ -16,7 +16,7 @@
 /*  Provided for simulation only.
     Returns pv.
 */
-double get_sp_angle(int i) {
+double sp_angle_get(int i) {
     if (i == 0) return SP_VALUES;
     else if (i == 1) return SP_VALUES;
     else if (i == 2) return SP_VALUES;
@@ -27,7 +27,7 @@ double get_sp_angle(int i) {
 /*  Provided for simulation only.
     Prints all via points.
 */
-void set_all_sp_angles(double *traj, int nb) {
+void traj_set(double *traj, int nb, int mode) {
     int i = 0;
     printf("\njnt0 - jnt1 - jnt2 - jnt3 - n\n");
     printf("-----------------------------\n");
