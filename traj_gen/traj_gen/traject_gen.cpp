@@ -23,7 +23,7 @@ double sp_angle_get(int i) {
     else if (i == 3) return SP_VALUES;
 }
 
-#define NUM_JOINTS   10
+#define NUM_JOINTS   2
 
 /*  Provided for simulation only.
     Prints all via points.
