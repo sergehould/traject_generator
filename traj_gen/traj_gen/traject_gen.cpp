@@ -13,6 +13,7 @@
 #include <stdlib.h>
 
 #define SP_VALUES   10
+#define    BLOCKING    1
 /*  Provided for simulation only.
     Returns pv.
 */
